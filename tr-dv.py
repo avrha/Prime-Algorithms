@@ -1,12 +1,11 @@
-def main():
-  #trial Division algorithm
-  def trial_division(num):
+#trial Division algorithm
+def trial_division(num):
     for i in range (2,num):
       if (num % i) == 0:
         return False
       return True
 
-  #demo
+def main():
   x = 11
   if trial_division(x) == False:
     print(x,"is not a prime number")
