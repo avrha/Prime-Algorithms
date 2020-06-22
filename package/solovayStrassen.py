@@ -49,7 +49,7 @@ def calculateJacobian(a, n):
   
     return 0;  
   
-def solovoyStrassen(p, iterations):  
+def solovayStrassen(p, iterations):  
   
     if (p < 2):  
         return False;  
