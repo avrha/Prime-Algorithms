@@ -3,4 +3,5 @@
 ## Task List
   - [x] Add Fermat Test
   - [x] Add Miller-Rabin 
-  - [ ] Add Solovay-Strassen Test
+  - [x] Add Solovay-Strassen Test
+  - [ ] Add AKS Test
