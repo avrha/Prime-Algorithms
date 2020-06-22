@@ -4,4 +4,4 @@
   - [x] Add Fermat Test
   - [x] Add Miller-Rabin 
   - [x] Add Solovay-Strassen Test
-  - [ ] Add AKS Test
+  - [x] Add AKS Test

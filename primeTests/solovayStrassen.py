@@ -9,20 +9,18 @@ def modulo(base, exponent, mod):
   
         y = (y * y) % mod;  
         exponent = exponent // 2;  
-  
     return x % mod;  
   
 def calculateJacobian(a, n):  
-  
     if (a == 0):  
         return 0;
-  
     ans = 1;  
+
     if (a < 0):  
         a = -a;  
         if (n % 4 == 3):  
             ans = -ans;  
-  
+
     if (a == 1):  
         return ans; 
   
@@ -36,7 +34,7 @@ def calculateJacobian(a, n):
             a = a // 2;  
             if (n % 8 == 3 or n % 8 == 5):  
                 ans = -ans;  
-  
+
         a, n = n, a;  
   
         if (a % 4 == 3 and n % 4 == 3):  
