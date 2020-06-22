@@ -48,17 +48,3 @@ def millerRabin(n,k):
     if(millerAlgo(d,n) == False):
       return False;
   return True;
-    
-#def main():
-#  k = 100;
-#  n = 5;
-#
-#  if(millerRabin(n,k) == False):
-#    print(n,"is not a prime number")
-#
-#  else:
-#    print(n,"is a prime number")
-#  
-#  
-#if __name__ == "__main__":
-#  main()
