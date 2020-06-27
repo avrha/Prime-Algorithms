@@ -13,9 +13,9 @@ def power(x,y,p):
 
   return res;
 
+# Miller-Rabin algorithm
 def millerAlgo(d,n):
   a = 2 + random.randint(1, n - 4);
-
   x = power(a,d,n);
 
   if(x == 1 or x == n - 1):

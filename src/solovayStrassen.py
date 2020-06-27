@@ -11,6 +11,7 @@ def modulo(base, exponent, mod):
         exponent = exponent // 2;  
     return x % mod;  
   
+#Find Jacobian Number
 def calculateJacobian(a, n):  
     if (a == 0):  
         return 0;
