@@ -1,7 +1,4 @@
 # PrimeTester
-Prime-Tests is a collection of Python modules consisting different [primality tests](https://en.wikipedia.org/wiki/Primality_test). Link to the pypi [package](https://pypi.org/project/PrimeTester/)
-
-# PrimeTester
 Prime-Tests is a collection of Python modules consisting different [primality tests](https://en.wikipedia.org/wiki/Primality_test).
 
 ## Tests Included 
