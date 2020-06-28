@@ -7,6 +7,7 @@ setup(
   py_modules=["aks", "fermat",  "millerRabin", "solovayStrassen", "trialDivision"],
   package_dir={'': 'src'},
   url='https://github.com/avrha/Prime-Tests',
+  liscene="MIT",
   author="Joey Ferenchak",
   author_email="sjferenchak@gmail.com",
   classifiers=[
