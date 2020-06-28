@@ -1,5 +1,5 @@
-# PrimeTester
-Prime-Tests is a collection of Python modules consisting different [primality tests](https://en.wikipedia.org/wiki/Primality_test).
+# primeTester
+primeTester is a collection of Python modules consisting different [primality tests](https://en.wikipedia.org/wiki/Primality_test).
 
 ## Tests Included 
 - Fermat Test
@@ -14,10 +14,10 @@ pip3 install PrimeTester
 ``
 
 ## Usage
-Import the test function from the python modules installed. 
+Import the test function from the python modules installed. Camel case is used for the functions names. 
 
 ``
-from aks import aks
+from millerRabin import millerRabin 
 ``
 
 For probability based tests (Fermat, Miller Rabin, Solovay Strassen) those functions take in two arguments.
