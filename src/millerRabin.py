@@ -33,6 +33,7 @@ def millerAlgo(d,n):
 
   return False;
 
+# Miller-Rabin function to be called
 def millerRabin(n,k):
   if (n <= 1 or n == 4):
     return False;

@@ -9,14 +9,17 @@ from aks import aks
 
 class Test(unittest.TestCase):
   def test_trialDivision(self):
+    #Determine if returned value is true
     result = trialDivision(5)
     self.assertTrue(result)
 
     result = trialDivision(7)
     self.assertTrue(result)
 
+    #Determine if returned value is false 
     result = trialDivision(10)
     self.assertFalse(result)
+
 
   def test_fermat(self):
     result = fermat(5, 100)
