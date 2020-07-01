@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
       long_description = fh.read()
 setup(
     name='primeTester',
-  version='1.0',
+  version='1.1',
   description='A collection of Python modules consisting different primality tests.',
   py_modules=["aks", "fermat",  "millerRabin", "solovayStrassen", "trialDivision"],
   package_dir={'': 'src'},
