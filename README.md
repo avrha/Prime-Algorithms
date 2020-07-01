@@ -1,6 +1,8 @@
 # primeTester
 primeTester is a collection of Python modules consisting different [primality tests](https://en.wikipedia.org/wiki/Primality_test).
 
+Link to package on PyPI: [primeTester](https://pypi.org/project/primeTester/).
+
 ## Tests Included 
 - Fermat Test
 - Miller Rabin Test
